@@ -1,8 +1,8 @@
 /*
-Template Name: Tunis - Personal Portfolio
+Template Name: Tunis - Tharchen's Portfolio
 Author: celtano
 Author URI: http://themeforest.net/user/celtano
-Description: Tunis - Personal Portfolio
+Description: Tunis - Tharchen's Portfolio
 Version: 1.0
 */
 
@@ -19,7 +19,7 @@ Version: 1.0
 	+ Pages
 		- Homepage
 		+ About
-		    - Personal Info List
+		    - Tharchen's Info List
 			- Box Stats
 			- Resume
 			- Skills
@@ -553,7 +553,7 @@ body.light hr.separator {
   padding-bottom: 20px;
 }
 
-/* Personal Info List */
+/* Tharchen's Info List */
 
 .about .about-list li:not(:last-child) {
   padding-bottom: 20px;
