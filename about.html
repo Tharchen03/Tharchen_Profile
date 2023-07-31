@@ -289,6 +289,22 @@
     >
       <div class="container">
         <div class="row">
+          <p class="open-sans-font" style="color:#ffb400;">
+            I have honed my expertise in front-end development through dedicated
+            work and practical experience. I specialize in creating visually
+            appealing and intuitive user interfaces. My love for web design and
+            development has led me to pursue mobile app development as well. 
+            <span style="color:white;">
+              I
+            successfully completed a 6-month course in mobile app development,
+            which has equipped me with the necessary skills to create mobile
+            applications that engage and delight users. Moreover, I have some
+            knowledge of web backend, which allows me to work collaboratively
+            with backend developers and effectively bring projects to life.
+            </span>
+          </p>
+          <br />
+          <br />
           <!-- Tharchen's Info Starts -->
           <div class="col-12 col-lg-5 col-xl-6">
             <div class="row">
@@ -297,6 +313,7 @@
                   Tharchen's infos
                 </h3>
               </div>
+
               <div class="col-12 d-block d-sm-none">
                 <img
                   src="img/z.jpg"
@@ -383,7 +400,12 @@
                 </ul>
               </div>
               <div class="col-12 mt-3">
-                <a href="javascript:void(0);" class="btn btn-download" onclick="downloadScreenshot()">Download CV</a>
+                <a
+                  href="javascript:void(0);"
+                  class="btn btn-download"
+                  onclick="downloadScreenshot()"
+                  >Download CV</a
+                >
               </div>
             </div>
           </div>
@@ -719,16 +741,17 @@
     <script src="js/custom.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 
-
     <script>
-        function downloadScreenshot() {
-          html2canvas(document.documentElement).then(function(canvas) {
-            var link = document.createElement('a');
-            link.href = canvas.toDataURL('image/jpeg').replace('image/jpeg', 'image/octet-stream');
-            link.download = 'cv.jpg';
-            link.click();
-          });
-        }
-      </script>
+      function downloadScreenshot() {
+        html2canvas(document.documentElement).then(function (canvas) {
+          var link = document.createElement("a");
+          link.href = canvas
+            .toDataURL("image/jpeg")
+            .replace("image/jpeg", "image/octet-stream");
+          link.download = "cv.jpg";
+          link.click();
+        });
+      }
+    </script>
   </body>
 </html>
